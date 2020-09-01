@@ -1,0 +1,42 @@
+swipe:
+  4:
+    up:
+      window: 'next' # MOVE WINDOW TO NEXT WORKSPACE
+    down:
+      window: 'prev' # MOVE WINDOW TO PREVIOUS WORKSPACE
+    left:
+      sendkey: "PREVIOUSSONG" # PLAY PREVIOUS SONG
+    right:
+      sendkey: "NEXTSONG" # PLAY NEXT SONG
+
+  3:
+    up: 
+      workspace: 'next' # NEXT WORKSPACE
+    down: 
+      workspace: 'prev' # PREVIOUS WORKSPACE
+    left:
+      sendkey: "LEFTCTRL+LEFTMETA+LEFT" # VIEW SPLIT ON LEFT
+    right:
+      sendkey: "LEFTCTRL+LEFTMETA+RIGHT" # VIEW SPLIT ON RIGHT
+
+pinch:
+  in:
+    sendkey: "LEFTCTRL+KPPLUS" # ZOOM IN
+  out:
+    sendkey: "LEFTCTRl+KPMINUS" # ZOOM OUT
+
+tap:
+  3:
+    sendkey: "LEFTALT+F1" # OVERVIEW
+    
+hold:
+  3:
+    sendkey: "PLAYPAUSE" # PLAY/PAUSE MUSIC
+ # 4:
+  #  window: 'fullscreen' # TOGGLE FULLSCREEN
+
+plugin: 
+  inputs:
+    libinput_command_input:
+      enable-tap: true
+      verbose: true
