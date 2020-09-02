@@ -15,9 +15,9 @@ swipe:
     down: 
       workspace: 'prev' # PREVIOUS WORKSPACE
     left:
-      sendkey: "LEFTCTRL+LEFTMETA+LEFT" # VIEW SPLIT ON LEFT
+      sendkey: "LEFTMETA+LEFT" # VIEW SPLIT ON LEFT
     right:
-      sendkey: "LEFTCTRL+LEFTMETA+RIGHT" # VIEW SPLIT ON RIGHT
+      sendkey: "LEFTMETA+RIGHT" # VIEW SPLIT ON RIGHT
 
 pinch:
   in:
